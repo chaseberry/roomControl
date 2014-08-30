@@ -13,4 +13,13 @@ class doorLock(roomModule):
         color = ((self.statusCode == 1) ? statusColorLocked : statusColorUnlocked)
         return super.generateStatus(self.statusCode, 'door is in some state', color)
   
-    def receivePacket(self):  
+    def receivePacket(self):
+        pass
+        
+    def lockDoor(self):
+        pass
+
+    def unlockDoor(self):
+        pass
+
+
