@@ -2,17 +2,15 @@
 class roomModule:
     
     name
-    status
 
     def __init__(self, name):
         self.name = name
-        self.status = 0
 
     def getStatus(self):
-        return {'statusCode': -1, 'status': 'No status function defined'} 
+        return {'statusCode': -1, 'status': 'No status function defined', 'statucColorCode':'#000000'} 
 
     def receivePacket(self);
         pass
 
-   
+     
    
